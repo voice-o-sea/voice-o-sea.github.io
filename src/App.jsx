@@ -43,8 +43,7 @@ export default function App() {
                     <div className='p-2 md:p-3 text-green-950 text-center text-base lg:text-lg xl:text-xl max-w-xl md:max-w-8/12 lg:max-w-4xl xl:max-w-5xl bg-white/90 rounded-xl '>
                         <p className='h-full items-center justify-center p-2 xl:p-4 rounded-xl border-2 border-dashed border-green-950'>
                             Front-end developer focused on building responsive,
-                            accessible, visually polished
-                            {/* {<br />} */} applications with{' '}
+                            accessible, visually polished applications with{' '}
                             <span className=' text-green-700'>React</span>,{' '}
                             <span className=' text-green-700'>
                                 Tailwind CSS
@@ -79,7 +78,7 @@ export default function App() {
                                         <div className='flex-1 flex flex-col items-center justify-center'>
                                             <div className='w-full aspect-video max-w-xs sm:max-w-sm md:max-w-full'>
                                                 <img
-                                                    src={`/src/assets/${pr.image}`}
+                                                    src={`/${pr.image}`}
                                                     alt='Project Screenshot'
                                                     className='w-full h-full rounded-lg object-cover border-2 border-white'
                                                 />
