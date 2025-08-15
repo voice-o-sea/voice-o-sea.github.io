@@ -1,4 +1,4 @@
-# Portfolio – Polina [Your Last Name]
+# Portfolio
 
 My personal developer portfolio showcasing selected frontend projects.  
 Built with React and Tailwind CSS.
