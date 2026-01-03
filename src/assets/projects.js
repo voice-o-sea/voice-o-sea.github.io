@@ -1,5 +1,21 @@
 export const projects = [
     {
+        title: 'Dashboard',
+        description:
+            'A portfolio dashboard application built with React and TypeScript that demonstrates common production patterns including authenticated data access, CRUD operations, form validation, analytics visualizations, accessibility best practices, and testing, backed by Supabase.',
+        features: [
+            'Authentication flow powered by Supabase',
+            'Analytics dashboard with interactive charts',
+            'Documents table with full CRUD',
+            'Form validation and error handling',
+            'Automated tests covering hooks, form and accessibility',
+        ],
+        stack: ['React', 'TypeScript', 'TanStack Query & Table', 'React Hook Form', 'Tailwind CSS', 'shadcn/ui', 'Recharts', 'Supabase', 'Vitest'],
+        image: 'dashboard.png',
+        demoLink: 'https://voice-o-sea.github.io/dashboard/',
+        gitLink: 'https://github.com/voice-o-sea/dashboard',
+    },
+    {
         title: 'Color Palette Builder',
         description:
             'A visual tool to create, customize, and export color palettes — including 11-step scales inspired by Tailwind and ready-to-use CSS tokens.',
